@@ -1,0 +1,288 @@
+<html>
+    <html>
+<head>
+    <title>Kartini Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+        }
+        .menu{
+           margin-left: 650px;
+        }
+        .container {
+            background-image: url('IMG_1671.PNG');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            color: white; 
+        }
+        .navbar {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: unset;
+            padding: 20px 50px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar .cart {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .cart i {
+            margin-right: 5px;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            margin: 10px 0;
+        }
+        .content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .content .btn {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .barang {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .title::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: #e63946;
+            margin: 10px auto 20px;
+        }
+        .products {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 23%;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        .product-category {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 5px;
+        }
+        .product-name {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .product-rating {
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+        .product-price {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">Kartini Shop</div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="cart">
+                <a href="#"><i class="fas fa-shopping-cart"></i> $0.00</a>
+                <a href="#"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+        <div class="content">
+            <h2>SELAMAT DATANG DI TOKO KAMI</h2>
+            <h1>Silahkan Belanja</h1>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </div>
+    <div class="barang">
+        <div class="title">
+         Our Featured Products
+        </div>
+        <div class="products">
+         <div class="product">
+          <img alt="aqua-galon" height="300" src="https://images.tokopedia.net/img/cache/700/VqbcmM/2021/12/19/8a60aa25-c6f1-47d6-89d5-b494a41e071a.png" width="300"/>
+          <div class="product-category">
+           Air Mineral
+          </div>
+          <div class="product-name">
+           Aqua Galon 19 L 
+          </div>
+          <div class="product-rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="product-price">
+           Rp 20.000
+          </div>
+         </div>
+         <div class="product">
+          <img alt="le-minerale-galon" height="300" src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//catalog-image/113/MTA-109489666/le_minerale_le_minerale_galon_19_liter_full01_hwb82k35.jpg" width="300"/>
+          <div class="product-category">
+           Air Mineral
+          </div>
+          <div class="product-name">
+            Le Minerale Galon 19 L
+          </div>
+          <div class="product-rating">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+          </div>
+          <div class="product-price">
+           Rp 22.000
+          </div>
+         </div>
+         <div class="product">
+          <img alt="air-isi-ulang-galon" height="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgjvsXSi4f790ElqUKsD5KXJi7xrhD-NgG7Q&s" width="300"/>
+          <div class="product-category">
+           Air Mineral
+          </div>
+          <div class="product-name">
+           Air Galon isi ulang
+          </div>
+          <div class="product-rating">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+          </div>
+          <div class="product-price">
+           Rp 10.000
+          </div>
+         </div>
+         <div class="product">
+          <img alt="cleo-galon" height="300" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTExQWFRIVFRYWFhUXFhoTExoVFRUWFhUYGBUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGy0lHiYuLS0tLS0tLS0tLS01LTItLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0tLy8tLS0tLS0tLf/AABEIAOAA4QMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAgMBBAUGB//EAEIQAAEDAQQHBQUFBwIHAAAAAAEAAhEDBBIhMQVBUWGBkaEGInGxwRMUMtHwB0JSYuFygpKissLxFSMWJTNDU9Li/8QAGwEBAQADAQEBAAAAAAAAAAAAAAECBAUGAwf/xAA5EQEAAgEBBQUGBQIFBQAAAAAAAQIRAwQFEiExQVFhcZETgaGxwfAUIjLR4UJiBiMzQ1IkcoKy8f/aAAwDAQACEQMRAD8A+1ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg52lNMMoENIc95BcGsAJga5JAC+Grr105xPOe6G3s2x6mvE2iYiI5Zl5S1/aMAYZZyd7nx0DT5rSneUT+mvq61dwz/Xf0j+fonobttVr1W0zTYwOMSCSeWtXT2697xXGDW3PpaWnN+KZw9nZKt9jXayMfEYHqCujS3FWJcLVpwXmq5ZPmICAgICAgICAgICAgICAgICAgICAgICAg872lpNNezlwBBL2kHEZSMOK0NriPaacz4w7G7rz7HViPCXzLTAu1HjY4jquLaeHUmPF6rT/NpxPghoO03a7Dse3zX0pfGpE+L56tOLTtHhL7Ro490jY53U3v7l6HS6PEbTH58+Eft9G0vo+AgICAgICAgICAgICAgICAgICAgICAgICDkdpLI57GOYJdTqNfExIyOa1tp0banDw9YnLd2LaKaM24+kxh5DSXZGtWqufLGtcZGLnOx2i6B1Wlfdl76k2zEZdfS35paenFOGZmPL9/ot0f8AZ+WuDn1CcRg1l3qSV9q7trE5tb4Pjqb9tMYpT1nP0h7TRVF7WuD5m+YJjEAAAwMso4LdpXhy4+tqRqcMx3enOf8A63Vm+IgICAgICAgICAgICAgICAgICAgICAgICCFU4FWCVjHIjLigOg5Z6+KiooCAgICAgICAgICAgICAgICAgICAgICAgIKrRN3ASZGsDWMcdSERlAWkDA5rLCZVV7S6O608kiEZ0aHQ4uMuccs42SVZG012rWFiqSiiAgICAgICAgICAgICAgICAgICAgICAg13Vx+hBkLJipe86h5qimpUdtHGD5lVFzLUQMAORd0A9VMHNoV7e5pmS52MXiGME6wxpJdxKuEytsunmYNqS1xMAwQCfBSadzKLOsx4ORB8FgySQEBAQEBAQEBAQEBAQEBAQEBAQEBBz/fRUcWtIMZiSHSNuGCyxhjnK6476cSisFg13enqoQg5zRm7l+gRVVSozY53H5qwktarVePgoTz+SyjDFxNIaOtdc96zi6MgXtYOP3uqziax2scTLqaO0baRF5lNgGV15kcm+qxmariXbpMqgZB2+/B/pWHJnmVtNx+8IdsmeqkkSmoogICAgICAgICAgICAgICAgotNqDcIJdsGJViMplosNoeZgNbvE9JWXKE5rmaLbMwJOZGBU4pML2WEKZXCwWRqZGfZ0xqHmipBwGQ5BESncfJBjHdzlBkNOs8hCCLqjRmY4x5IitzQ74HgGdzuB/yr7jl3pUnyN8kHxBgqSsSmoogICAgICAgICAgICAgII1HQFYFVnac7vMqyjYnb81AunaegQRL26z1nyQQ9ozZPBMDIrbAmDKQLjsCCt9Qj7w6K4EQ8HW4+EphEcNnMgeqCp7Z/COZ8gqi7R+Ej0hJSOqVIQ54/MHfxD9CsZ7GUdq5RkICAgICAgICAgICAgICDUtFaHhu2OphZRHJjMoWq2EOLRAjirFU4lfvFQ5XuAhXEGZAx528T+qcjmsFJ24cyoc0hT/NyCKndH4jzjyQYuTv4E+aCYpH6AHyUGfYE59T/AJTKrG0P2eX6qZMMizj6CZMF27iASeHqUTCLHEySLu6ZwHhgkrCaiiAgICAgICAgICAgICAg1rTSJcDEgfNZRLGV1ZpmQDEbQPooK7jzq5n5SnI5s+xftAG79UzBzV2mvSpialZrRtc5rQkZnpBLnu7RWOYFS+6YhrX1CfCAVnwWTihd/rVKYlrT+Eua138Al/8AKpwyZTba6r/gpuO90tbxvXXfyqcoVdZqNa9NR7I/Axh6vJx5BJmOwhsueBmQPE+QWKqy9uoF3CGq8xE135Sxu7F56EeSYTLZoExj5R0OKkiDAcjiduGI1HBJWElFEBAQEBAQEBAQEBAQEBBF7ZCCFB0GLxO5ZSxYtFeAcxnGrzPokQTLylaw2t0htqMEz3296P2hlwAX2ia9z582lT7D1ahl9YmTJN04nbLj6KzqxBFJl2rH2RstAS9xJ/M+AeAgHkvnOraejKKxHV1qJoURDGNaPAUxyMdAsec9WXKEH6XbleaNwDnngYA6FOEyw20l+TKrvGGDoQOiYwLKdCpqDKf8x6QmYMLhYZ+Jzj0/yplYhMUmDAYcfqFF5tV1eo0MEGS0Xrrb8Hdj3cZxg6laxmOZqYi046NqzukTEGcZz471JSFqiiAgICAgICAgICAgICAgIOPojSL6jjMQ15Y4AnBw9DhmtfY9o9vpzMxiYmYlsbZs8aNox0mMt+qDJimTvwW372r7mv7w1ubcREDXiYAiMcSqjaiq7OG9TyB9VjyXmwyxNxJJJOf3f6YnjKZMJCw0h9xvEA+amZXC2nSaPhaB4AAILIUGHEBFUV6zRmeZjzzVwmUGPJwEjwH/ALegVxgzlioQDJ+LGIzy2YqYXJY8iII147TmkwZzzbKgICAgICAgICAgICAgICAg+f6Ure5VLVaKVYGsX3jZj95kDHDHjuhcSJnRta1bc+KYxjsmc/V6XRr+L09PSvT8vD+runu+C2x9srZXhtCy94tBLi4uDXHUWwI8S7gvt+P1NSJjSrmfWPphhbdGz6FuLW1MV9J93WZ90PRaFq1HgutLWtq0yWOu/CTAc04E43XdVv7NqalqY1I/NEuRt2jo01InRnNZjMZ9PnDrl7SM8F92m59o05Z6bi11emHDNpeJHiF8ra+lWcWtET5tqmw7TqVi1NO0x5S1HdrLIP8Aut4Bzj0CwnbNCP6ofeu6dsn/AG5+H7tSv26swyvv8GR/UQvlO8NCOmZ9374bFNw7ZbriPOf2yopdralXCjZ6j/FwYP5QfNYRvDi5UpM/fvfS25Y04zrasR5Rn54RtGkNIn4KVNm4S9/n6LG20bTP6axHxZ6ex7ur+u9p+EfL6vLWvSVqvFtWq6ntgXP6ACtP2+te3DqXmsffdzdimx7JSnHo6UWn1/8AbkloOqxtspFj3ODn3CXYOIcLuPEzyV0rUpr0mlpnnzzGPD3sdrpq6mxaldWkVxGYiJz0593Ll9X1BjoEt55rvPEsWa0lxunMTjxSYIbKxUQEBAQEBAQEBAQEBAQEBB837bgMtzJaLlRovOjHCABe1a8PFed26lfxFuKeX5Zxn3T8nrdz/m2ScdYzh9Fo0WsaGsAa0ZACByXoa1isYrGIeUve154rTmWh7Noq1ZkzcfdGXwhn9imnytb3T8MfRnqznSp4Zj45+qxziNw2DUvq13x3tJRqNtVRrfh9q+9jBAL5kb4d0XndSKV1LxbrmcPfbPbV1NDRtTpwxns8J+/BVQLrovCHQJGqdcblrWxnl0dDT4uGOLr2unQp0qNI2m0T7MG6xg+Oo/MMbO7EnIASVtbJss61vv783K3lvGuz1mM4757v3meyO2XltJfaZXcS2myk2nqpC8acbyCL53kEbF3tPYIr+q3uxGPjnPveT1N5cf6aTH902ni9Yxw+VZ9XU7M9uaVdwo16TKbnYMe34L2rOS0zsK2c1p/q1rNO/GMecdMeMdO7tc6+jqambbLq3rqf8ZvNot4RM84nuicxPTPZPtNNUL9F143n0w0tecXFpwc0n7xaY72sO3Lkb02WNOcx06x5d3y9Xf8A8ObxtrRHF16WxyjOMxMR0jPPMRyzGYxnDydCpdc134XNPIg+i4tbcNot3TEvZatOOlqd8THrD6/7SBDOEjABerfmZStDRVbTLxfIOBIvOMSYGwQpMciHQWLIQEBAQEBAQEBAQEBAQEBB4T7SZa+g7U4ljupB8QSFwt66cTqxPbNZ+E/y9NuD81dSvdzez0dWv0qb/wAVNh5tBK7OlfjpW3fES89r04NW1e6Zj4sR/vftU/6Hf/av9fu+/mddLyn5x/DFrwOJ1L7Q+Evl3axpFqqEiL113C6BP8q8/t9eHXnxxPwe63Jfj2KnhmPj/Ll0WS4DaVpxzl0724azLe005h0jZ6L2h1Gi6z0bpEsvV6gFRxbke+GNM5gwcCvS7vrEU1MdYxH1n1nl7n59vi9p1NDPS/Fb05V9I5+cuF2Z/wCY3qVppU71K12c1GsaKIqONC00ZeGRBdVZRDrt3DYt235OktGOfVu2TQ9kIFOnQozXr+wqPa32jWVXWBzm+6VnkuaxtppVYcCZukSQAsLWmerKOXOvJ3qNuLrE17s30qY4uAe7ybzXM3hq/wCRSvbERH37oj1dzc+yzXbda0dJvM/f/lNo9zyrahvkThPpHouRNfyPVVvPtZjxfZLDWdVo0yIbeptN7MiWjHxXo9G3Fp1t3xDwG1U9nr3p3TMfFGxaNpU332gufhNQuvuxMGb2LRGoHgF9ZmcPhEc3bXzZCAgICAgICAgICAgICAgIPI/aW0izNeACW1G5iR3iAT0XJ3rSJik+Mx8P4d7/AA/P/UTSe2Pk7HZWteslI7iOAcQOkLb2G2dnr6enJobzpwbVePH6LdL2kUrlQzElhgTAfGPNoW1j88en1+jUr/p3jyn6fVo6H0iy0BxaSbsSCCCJ3Ffa0cLXjm8r9oUUqzKhBh1K73RJlr5kTrhy5e0zWm0VvMZzGHo93VvrbDfTpaazFonMeMdOUx3PJ2O1g1Q4XoLicYgYzlmFzdSOc25Rzd/RnNIpmZ5Yz5fFb20c6nbBXE3Koa9hEfEXNfAJ7oeKjGubOE04MXl19i1o072zzrbnPl3x/wBs5z4c+x5jeWx22jQpFZxek4rM9OKP6Z8L1xjx5drg6T07bnOPu7KTGYH/AGAbzanvAtRqOZVcalN/tMbp7oBIEjFdiujFozWeKO+Hm7bTFLcOrE0t2xMfcSnoWtpS1149uaTCwU6opXaVFtBpcS2KQDGmXOy73eOUwdbadSmlXhjHF8vGfCPj0dHYdKde0XmJ4O/H6v7a98z39I6vU6UtLTdp0/8Ap0xdbtO08V5fX1eOYiOkcoe72LZ/ZVm1v1Tznw8Pvr1nnLk0NG13PMU3fFme7jI/FE4L7V0r3ritZ9GvfatLS1Jm94jn3+Pd1fU+ylW/YqR1gOb/AAvcB0AXV2G3FoVeZ3xp8G26keU+sR9W9TsZz48jK25nk5kQ66wZCAgICAgICAgICAgICAgIOH21oh1jqyJDYdG2CufvOJ9hmOyYn44+rpbpvNdqrjtzDT+zu137LiReDycNjgDPO9yU3bb/ACpr3S2N+6XBtMTHSY+/hh2tMMBp4iRebI3ONw9HFb1pxifGP2cvRjMzXvifln6M+0fJlpg5bNy+2Ia2ZeO+0+kTSpukghzmyMxeAd/YubvCIjgt44eg3FaZ9rSJxyieXhP8vBC0t7smLogkkY5Ynfh1K5+pHFHKse539CeC0za8zz7ex2LPpCm+n7Ks0VKWMbROBg+mSwprcHK3u7JjynsXX2T2kzfSnnPKe2JjumO1CnovR84CpUjJhhwG4SDA8AF9vb1npNvdiPWYjMtb8Nr15TWkeeZiPKJnEOl7raXt9nQs1RlLYGOaD4vdE81jNdbUjhpSYj76zPVlSdl0Z49XVibeccvKI6e6GxYuxlsJa6GUyCD3nziDI+GVlTYNbMTyjzn9mGtvvY4iaxM28o/fD0Nl7JukufVAJJJ9jTAxOJ79S9HCF1eDWt+q/pGPnl5v8RstP9PRz42tM/CMR83e0fohlGmKbJDWycTJJJkknbJX10qV06xWvRrbTtGptGpOpfrKFpquButBJGZ+vFfWIa8y3aRwE5wFhLJNAQEBAQEBAQEBAQEBAQEGnpileoVW7WO6CfRau214tnvEd0tjZLcOvSfGHy+3UrVYTR9m5kvbJNE3WtYTIEExt8VxL1ts9+LjxmInrl67S1NLbazx1zicfmjtbFDT+kas0pLg90NhoJLZEGbojf5r6RtW03iK1mZz4fX6sPwOxaUzqXrEY/un5Ppj6lTINnLEHXrXo4iHipnua1osVOqLlZl5pxgjWPJY6mnW9cWjMPpo6+po349OcSop9mbEMqLOI+a+P4TR/wCENud57XP+5LZo6HszD3aFIHb7Ns84WUbPpR0rHpD5W23abfq1LT75bjYbgAB4ABfWKxHRr2vNusntFcMWZOzmil/eOGKgy2DrlBmoGgTgJQRDtgMb8OiSQkoogICAgICAgICAgICAgIIvbII2gjmpaMxMLE4nL572d7OXnvc8XmCo4wcQXE5RsGGG1ee3fsnt8WvHKvLzl6nbt4+ypFazzmPg9xZbG1kmIMYaz9bl6KtYjo8xqatr9Za9orhr7ucAE7QZwE+CziHxmW3Stzdc7kmsrxMm1Mzx8kxKZhhtsYcpd4d7yTEmUw9xyZH7RjoFFZLXa3AeAjzlFQdT3Fx3nDmfREPYnN0AbBJPNMmFFa0u+FmBOROPTABXHemW1ZGOA78F34h8yfKApM9zKIWF+vVt+s1MDKiiAgICAgICAgICAgICAgINMUYqC7g3EkQIkz/lWla1riIS9rWnMytqUJJ7x4QOoEq5RQ3RFEY3XTrN92Pj3leKThhY3R1Kfhx3ucfMqcUmIXMsdMZMbPgJ5qZlcQvhQYhAhFAiIms0Zkc1cAKrdXkUxIyag38j8kGjbH04+5+8YWUZTkno15NMTGBIwxEAmI4QsbdVjo2lFEBAQEBAQEBAQEBAQEBBROMzA2+SyYsvtTZxPX5JgzDBtTB+gKYkzB76zfyThkywbeNQKcJxIm3HZ1ThMsi0uOwdUxBzTaZzcT4YIJBrNk+P6pzVkWhuqPrcpgye8/UJgyg62Aa1cJlVUquqAtGR3lp5jJXGEmU7BZxTYGAXYnAm8cTOJJMrGerKOjYUUQEBAQEBAQEBAQEBAQYKDWogQWgyZzgnLBZsGCH6i3kU5Lza1SnUOvzHorGE5qxQOstHGVcphMUxrdyHzUEu4Np4pzXkyKuwAdfNMGUg55ylOQz7F2vynqVMiXsxrJPi4DyRVjaY/COp81BIUvyt5AfNMg6ztOpvDPyCZMLKVMNED59SsWSaAgICAgICAgICAgICAgINVtINJgxPrmssscBsY1OniPkrxJhj3H8x5/onEcLH+nH8RTiOE9wA18zCcRhltk3jlKcS4Wts288gpkwsFEb+ceSmTDIoj8I44plcMkxrAQRL9/1zTIiAmTCYUVlAQEBAQEBAQEBAQEBAQEBBhyDnWnSjqebHEflg9CqjV/4npDNlYfuj0cgi/tLQOqqP3R6mEyYUjTdn/wDHVcfzRHKY6Jkwvp9oGj4KUch5KKmNOPOTAOqCQ0jUOuPAIJCq45knigtYguagtagmEGQgygygICAgICAgICAgICAgICCDqYOYQUvsLDqCCl2iqewII/6RT2IA0UzYgkNHNQTFiCCwWYIJCiEEhTQSuoMwgIMoCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg//9k=" width="300"/>
+          <div class="product-category">
+           Air Mineral
+          </div>
+          <div class="product-name">
+           Cleo Galon 19 L
+          </div>
+          <div class="product-rating">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+          </div>
+          <div class="product-price">
+           Rp 21.000
+          </div>
+         </div>
+         <div class="product">
+            <img alt="gas-elpiji-3kg" height="300" src="data:image/jpeg;base64,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" width="300"/>
+            <div class="product-category">
+             Gas Elpiji
+            </div>
+            <div class="product-name">
+              Gas Elpiji 3kg + Tabung
+            </div>
+            <div class="product-rating">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+            </div>
+            <div class="product-price">
+             Rp 195.000
+            </div>
+           </div>
+           <div class="product">
+            <img alt="le-minerale-galon" height="300" src="https://images.tokopedia.net/img/cache/700/product-1/2019/12/4/6980456/6980456_05b5ed54-61e5-4203-8e2c-dc4a73666340_700_700.jpg" width="300"/>
+            <div class="product-category">
+             Gas Elpiji
+            </div>
+            <div class="product-name">
+                Gas Elpiji 12kg + Tabung
+            </div>
+            <div class="product-rating">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+              </svg>
+            </div>
+            <div class="product-price">
+             Rp 585.000
+            </div>
+           </div>
+        </div>
+       </div>
+</body>
+</html>
+</html>
