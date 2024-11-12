@@ -301,11 +301,11 @@ input {
 }
 
 .overlay {
-  /* background-image: url("https://images.unsplash.com/photo-1621360841013-c7683c659ec6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80"); */
+  background-image: url("Galon.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
-  color: #fff;
+  color: #ffffff;
   position: relative;
   left: -100%;
   height: 100%;
@@ -313,6 +313,11 @@ input {
   transform: translateX(0);
   transition: transform 0.6s ease-in-out;
 }
+
+.overlay h1, .overlay p {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow hitam pada teks */
+}
+
 .container {
   display: flex;
   justify-content: space-between;
